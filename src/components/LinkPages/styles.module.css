@@ -1,0 +1,24 @@
+.pages {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5rem 0 5rem;
+}
+
+.linkStyle {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 1rem;
+}
+  
+  .red {
+    color: red;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  .pages {
+    display: flex;
+    gap: 20px;
+  }
