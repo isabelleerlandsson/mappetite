@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./styles.module.css";
+import { IoIosStar as Star } from "react-icons/io";
 
 interface StarRatingProps {
   rating: number;
@@ -16,13 +17,11 @@ const StarRating: React.FC<StarRatingProps> = ({ rating, onRatingChange }) => {
   return (
     <div className={styles.stars}>
       {[1, 2, 3, 4, 5].map((star) => (
-        <span
+        <Star
           key={star}
           className={`${styles.star} ${rating >= star ? styles.filled : ""}`}
           onClick={() => handleRatingClick(star)}
-        >
-          ★
-        </span>
+        />
       ))}
     </div>
   );
