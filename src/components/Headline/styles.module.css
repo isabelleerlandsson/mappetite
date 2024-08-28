@@ -3,5 +3,9 @@
   color: #333;
   text-align: center;
   margin: 20px 0;
-  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 400;
 }
